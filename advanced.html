@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style>
+         body{
+            background-color: rgb(245,245,220);
+         }
+         .a
+         {
+            color: red;
+            font-size: 24px;
+            margin: 20px;
+            background-color: rgb(245,245,220);
+            z-index: 9;
+         }
+         .b
+         {
+            background-color: rgb(232,232,232);
+            position: relative;
+         }   
+         .c
+         {
+            margin: 50px;
+         }
+        </style>
+         </head>
+    <body>
+        <div class="b"><img style=" padding: 1px; margin: 25px; height:50px; width: 100px; " src="https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="googlelogo">
+
+        <a style="color:grey; float: right; margin: 3px;" href="images.html">Images</a><a style="color:grey; float: right; margin: 3px" href="index.html">Search</a>&nbsp;
+            <hr size="0.5" color="grey">
+        </div>
+        <div class="a">Advanced Search</div>
+    	<hr size="1" color="grey">
+        <div class="c">
+        <p>
+            <form action="https://www.google.com/search">
+            all these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input style="margin: 0 auto; width: 400px;" type="text" name="as_q">
+            <br>
+            <br>
+            this exact word or phrase: &nbsp;&nbsp;&nbsp; <input style="margin: 0 auto; width: 400px;" type="text" name="as_epq">
+            <br>
+            <br>
+            any of these words: &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input style="margin: 0 auto; width: 400px;" type="text" name="as_oq">
+            <br>
+            <br>
+            none of these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input style="margin: 0 auto; width: 400px;" type="text" name="as_eq">
+            <br>
+            <br>
+            <center><input style=" padding: 10px; background-color: blue;  border: none; color: white; margin: 15px;" type="submit" value="Advanced Search"></center>
+            </form>
+        </p>
+        </div>
+    </body>
+</html>
